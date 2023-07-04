@@ -1,4 +1,4 @@
-package com.yugen.movies;
+package com.yugen.movies.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

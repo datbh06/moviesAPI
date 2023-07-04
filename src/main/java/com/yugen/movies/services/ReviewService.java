@@ -1,5 +1,8 @@
-package com.yugen.movies;
+package com.yugen.movies.services;
 
+import com.yugen.movies.repositories.ReviewRepository;
+import com.yugen.movies.models.Movie;
+import com.yugen.movies.models.Review;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

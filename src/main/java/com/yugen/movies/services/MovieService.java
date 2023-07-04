@@ -1,6 +1,7 @@
-package com.yugen.movies;
+package com.yugen.movies.services;
 
-import org.bson.types.ObjectId;
+import com.yugen.movies.repositories.MovieRepository;
+import com.yugen.movies.models.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
