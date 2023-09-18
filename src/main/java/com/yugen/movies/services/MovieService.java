@@ -1,16 +1,16 @@
 package com.yugen.movies.services;
 
-import com.yugen.movies.repositories.MovieRepository;
 import com.yugen.movies.models.Movie;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.yugen.movies.repositories.MovieRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
 @Service
+@AllArgsConstructor
 public class MovieService {
-    @Autowired
     private MovieRepository movieRepository;
 
     public List<Movie> allMovies() {
